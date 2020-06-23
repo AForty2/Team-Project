@@ -121,6 +121,10 @@ hr {
 .card header .ketiga {
   background-image: url(img/amir_sqr.jpg);
 }
+/* Profile PIC Keempat */
+.card header .keempat {
+  background-image: url(img/adit_sqr.jpg);
+}
 .card header .social {
   display: inline-block;
   align-self: center;
