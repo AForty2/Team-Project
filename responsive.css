@@ -1,7 +1,38 @@
-/* Untuk Tablet */
-@media all and (max-width: 1150px) {
+/*! Untuk Tablet */
+@media all and (max-width: 1100px) {
+  /*? ===================================== */
+  /* CSS Jumbotron */ 
+  .jumbotron-wrapper {padding-left: 0px;}
+  /* .jumbotron .tulisan {
+    display: block;
+    margin: 20px auto;
+    font-size: 1.6em;
+    position: relative;
+    top: 0px;
+    text-align: center;
+  } */
+  /* .jumbotron.container {
+    margin: 0 auto;
+    padding: 0;
+  } */
+  /* .jumbotron .gambar {
+    float: none;
+    max-width: 500px;
+    margin: 0 auto;
+  } */
+  .jumbotron .gambar img {
+    width: 500px;
+    margin: 0 auto;
+  }
+  /* Akhir Jumbotron */
+  /*? ===================================== */
+  
   /*? ===================================== */
   /* MAIN: TEAM */
+  .card header .profile {
+    width: 150px;
+    height: 150px;
+  }
   .team-container {
     display: flex;
     margin: 0px auto;
@@ -18,13 +49,61 @@
   /*? ===================================== */
 }
 
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
+/*! Untuk Smartphone */
+@media all and (max-width: 770px) {
+  /*? ===================================== */
+  /* HEADER */
+  .header.container {padding: 0 10px;}
+  .header.container ul {display: none;}
+  .header.container .fa-bars {
+    display: block;
+    font-size: 30px;
+    float: right;
+    margin: 13px 0px;
+    transition: 0.3s;
+  }
+  .header.container .fa-bars:hover {
+    color: #1FA5F8;
+    cursor: pointer;
+  }
+  /* Akhir Header */
+  /*? ===================================== */
+
+  /*? ===================================== */
+  /* Jumbotron */
+  .jumbotron-wrapper {padding-left: 0px;}
+  .jumbotron .tulisan {
+    display: block;
+    margin: 20px auto;
+    font-size: 1.6em;
+    position: relative;
+    top: 0px;
+    text-align: center;
+  }
+  .jumbotron.container {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .jumbotron .gambar {
+    float: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .jumbotron .gambar img {
+    width: 300px;
+    margin: 0 auto;
+  }
+  /* Akhir Jumbotron */
+  /*? ===================================== */
+
   /*? ===================================== */
   /* MAIN: TEAM */
+  .card header .profile {
+    width: 150px;
+    height: 150px;
+  }
   .team-wrapper{
     padding: 30px 0px 0px;
-    /* box-sizing: border-box; */
     overflow: hidden;
   }
   .team-container {
